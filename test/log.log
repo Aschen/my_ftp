@@ -1,0 +1,21 @@
+
+ ---------------------------------- 
+
+Thu Dec  4 20:18:50 2014 : Start FTP server
+Thu Dec  4 20:18:50 2014 : Open TCP socket
+Thu Dec  4 20:18:50 2014 : Bind socket to port 4242 for any ip addr
+Thu Dec  4 20:18:50 2014 : Listen on socket (10 max clients)
+Thu Dec  4 20:18:50 2014 : Server successfully initialized
+Thu Dec  4 20:19:37 2014 : New client connected from 127.0.0.1
+Thu Dec  4 20:19:38 2014 : Client 1 execute command ls
+Thu Dec  4 20:19:44 2014 : Client 1 execute command cd cli
+Thu Dec  4 20:19:45 2014 : Client 1 execute command ls
+Thu Dec  4 20:19:46 2014 : Client 1 execute command cd ..
+Thu Dec  4 20:19:47 2014 : Client 1 execute command ls
+Thu Dec  4 20:19:49 2014 : Client 1 execute command cd ..
+Thu Dec  4 20:19:49 2014 : Client 1 execute command ls
+Thu Dec  4 20:19:51 2014 : Client 1 execute command cd /
+Thu Dec  4 20:19:52 2014 : Client 1 execute command ls
+Thu Dec  4 20:20:14 2014 : New client connected from 127.0.0.1
+Thu Dec  4 20:20:16 2014 : Client 2 execute command ls
+Thu Dec  4 20:20:22 2014 : Client 2 execute command get log.log
